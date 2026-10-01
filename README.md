@@ -32,7 +32,7 @@ your brief — with human eyes on every stage, not a single AI pass.
 ## Who we are
 
 iGamingTextLab is an iGaming content studio — **500+ writers and editors
-worldwide**, [N] years in the industry, delivering 100% human copywriting
+worldwide**, 14 years in the industry, delivering 100% human copywriting
 and human-assisted AI content in **68 languages across 103 markets**:
 product pages, slot and casino reviews, payment guides, comparison pages,
 full-scale localization.
