@@ -8,6 +8,17 @@
   Free Claude Skills from <a href="https://igamingtextlab.com">iGamingTextLab</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-ai-humanizer.skill">
+    <img src="https://img.shields.io/badge/%E2%AC%87%20Download%20the%20skill-iGamingTextLab--ai--humanizer.skill-black?style=for-the-badge" alt="Download iGamingTextLab-ai-humanizer.skill" />
+  </a>
+</p>
+
+<p align="center">
+  <b><a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-ai-humanizer.skill">Download iGamingTextLab-ai-humanizer.skill</a></b>
+  · open it in Claude · click <b>Save skill</b>
+</p>
+
 ---
 
 ## 🎁 Get $40 in free credit — try us before you use these skills
@@ -79,7 +90,7 @@ igaming-ai-humanizer/
    [**Releases**](https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest).
 2. Open the file in Claude (desktop or web) and click **Save skill**.
 3. Done — Claude will pull it in automatically whenever you ask it to
-   de-AI, humanize, or write detector-resistant iGaming copy.
+   de-AI, humanize, or write natural-sounding iGaming copy.
 
 No Claude Skills on your plan yet, or want this as a standalone prompt
 instead? Open `igaming-ai-humanizer/references/master-prompt.md` — it's a
