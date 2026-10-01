@@ -96,3 +96,7 @@ More skills land here over time — watch the repo to get notified.
 - 💬 [Telegram](https://t.me/igamingtextlab)
 - 💼 [LinkedIn](https://www.linkedin.com/company/igaming-text-lab/)
 - 📷 [Instagram](https://www.instagram.com/igamingtextlab/)
+
+## License
+
+[CC BY 4.0](LICENSE) © iGamingTextLab — free to use and adapt with attribution.
