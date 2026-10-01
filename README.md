@@ -68,13 +68,14 @@ igaming-ai-humanizer/
 ```
 
 <p>
-  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/igaming-ai-humanizer.skill">
-    <img src="https://img.shields.io/badge/Download-igaming--ai--humanizer.skill-black?style=for-the-badge" alt="Download .skill" />
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-ai-humanizer.skill">
+    <img src="https://img.shields.io/badge/Download-iGamingTextLab--ai--humanizer.skill-black?style=for-the-badge" alt="Download .skill" />
   </a>
+  <img src="https://img.shields.io/github/downloads/igamingtextlab/IGTL-SKILLS/total?style=for-the-badge&label=downloads" alt="Downloads" />
 </p>
 
 **Install:**
-1. Download `igaming-ai-humanizer.skill` from
+1. Download `iGamingTextLab-ai-humanizer.skill` from
    [**Releases**](https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest).
 2. Open the file in Claude (desktop or web) and click **Save skill**.
 3. Done — Claude will pull it in automatically whenever you ask it to
