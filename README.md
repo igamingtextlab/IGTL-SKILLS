@@ -5,7 +5,7 @@
 <h1 align="center">IGTL Skills</h1>
 
 <p align="center">
-  Free Claude Skills from <a href="https://igamingtextlab.com">iGamingTextLab</a>
+  Free Claude Skills from <a href="https://igamingtextlab.com/?utm_source=github&utm_medium=readme&utm_campaign=igtl-skills&utm_content=header">iGamingTextLab</a>
 </p>
 
 <p align="center">
@@ -27,13 +27,13 @@ These skills are built on the same AI-detection know-how our own editors use
 every day in production. Want the real thing instead of (or on top of) a
 Claude Skill?
 
-**[Register at client.igamingtextlab.com →](https://client.igamingtextlab.com/haai-register)**
+**[Register at client.igamingtextlab.com →](https://client.igamingtextlab.com/haai-register?utm_source=github&utm_medium=readme&utm_campaign=igtl-skills&utm_content=cta-main)**
 **and get $40 in credit** to test our services — enough for a full
 2,000-word article, on us.
 
 A live editor can review text you already have, or generate new copy from
 your brief — with human eyes on every stage, not a single AI pass.
-[See how Human-Assisted AI works →](https://igamingtextlab.com/services/human-assisted-ai.html)
+[See how Human-Assisted AI works →](https://igamingtextlab.com/services/human-assisted-ai.html?utm_source=github&utm_medium=readme&utm_campaign=igtl-skills&utm_content=haai-link)
 
 > 4x cheaper than fully human-written content. 8x fewer errors than
 > standalone AI tools.
@@ -101,8 +101,8 @@ More skills land here over time — watch the repo to get notified.
 
 ## Talk to us
 
-- 🎁 [Register & get $40 credit](https://client.igamingtextlab.com/haai-register)
-- 🌐 [igamingtextlab.com](https://igamingtextlab.com)
+- 🎁 [Register & get $40 credit](https://client.igamingtextlab.com/haai-register?utm_source=github&utm_medium=readme&utm_campaign=igtl-skills&utm_content=cta-footer)
+- 🌐 [igamingtextlab.com](https://igamingtextlab.com/?utm_source=github&utm_medium=readme&utm_campaign=igtl-skills&utm_content=footer)
 - ✉️ [order@igamingtextlab.com](mailto:order@igamingtextlab.com)
 - 💬 [Telegram](https://t.me/igamingtextlab)
 - 💼 [LinkedIn](https://www.linkedin.com/company/igaming-text-lab/)
