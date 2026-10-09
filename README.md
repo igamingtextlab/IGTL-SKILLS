@@ -10,13 +10,15 @@
 
 <p align="center">
   <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-ai-humanizer.skill">
-    <img src="https://img.shields.io/badge/%E2%AC%87%20Download%20the%20skill-iGamingTextLab--ai--humanizer.skill-black?style=for-the-badge" alt="Download iGamingTextLab-ai-humanizer.skill" />
+    <img src="https://img.shields.io/badge/%E2%AC%87%20AI%20Humanizer-iGamingTextLab--ai--humanizer.skill-black?style=for-the-badge" alt="Download iGamingTextLab-ai-humanizer.skill" />
+  </a>
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-germany.skill">
+    <img src="https://img.shields.io/badge/%E2%AC%87%20GEO%20Germany-iGamingTextLab--geo--germany.skill-black?style=for-the-badge" alt="Download iGamingTextLab-geo-germany.skill" />
   </a>
 </p>
 
 <p align="center">
-  <b><a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-ai-humanizer.skill">Download iGamingTextLab-ai-humanizer.skill</a></b>
-  · open it in Claude · click <b>Save skill</b>
+  Pick a skill · download the <code>.skill</code> file · open it in Claude · click <b>Save skill</b>
 </p>
 
 ---
@@ -96,6 +98,39 @@ No Claude Skills on your plan yet, or want this as a standalone prompt
 instead? Open `igaming-ai-humanizer/references/master-prompt.md` — it's a
 self-contained block you can paste into any Claude conversation or your own
 content generator.
+
+### `igtl-geo-germany/`
+
+Writes, edits and checks **German-language** iGaming copy for the **German
+market (DE)**: operator, slot and sportsbook reviews, bonus pages, landing
+pages, comparisons, FAQs and meta tags. Regulatory content is current as of
+October 2026.
+
+Checks operator status against the official GGL Whitelist, keeps product
+rules for slots, poker, sports betting and Online-Casinospiele apart, and
+handles German tone, formats, payments and responsible-gambling wording.
+Germany only — not for Austria or Switzerland. Not legal advice.
+
+```
+igtl-geo-germany/
+├── SKILL.md                      # the skill: rules, status check, final checklist
+└── README.md                     # full description (not included in the .skill file)
+```
+
+<p>
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-germany.skill">
+    <img src="https://img.shields.io/badge/Download-iGamingTextLab--geo--germany.skill-black?style=for-the-badge" alt="Download .skill" />
+  </a>
+</p>
+
+**Install:**
+1. Download `iGamingTextLab-geo-germany.skill` from
+   [**Releases**](https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest).
+2. Open the file in Claude (desktop or web) and click **Save skill**.
+3. Done — ask Claude to write or check a German iGaming text, or name the
+   skill: "Use the igtl-geo-germany skill…".
+
+**[Full description, example prompts and rules →](igtl-geo-germany/)**
 
 More skills land here over time — watch the repo to get notified.
 
