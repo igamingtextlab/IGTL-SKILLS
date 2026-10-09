@@ -30,6 +30,7 @@ IGTL-SKILLS/
 │   └── build_skills.py           # валидация и сборка .skill-файлов в dist/
 ├── igaming-ai-humanizer/         # скилл 1 (исходники)
 │   ├── SKILL.md
+│   ├── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
 │   └── references/*.md
 └── igtl-geo-germany/             # скилл 2 (исходники)
     ├── SKILL.md
@@ -215,6 +216,10 @@ utm_content=<место>      # уникально для каждой ссыл�
 | «See how Human-Assisted AI works» | страница HAAI | `haai-link` |
 | Регистрация в «Talk to us» | haai-register | `cta-footer` |
 | Сайт в «Talk to us» | igamingtextlab.com | `footer` |
+| `igaming-ai-humanizer/README.md`: подзаголовок | igamingtextlab.com | `humanizer-header` |
+| `igaming-ai-humanizer/README.md`: блок $40 вверху | haai-register | `humanizer-cta` |
+| `igaming-ai-humanizer/README.md`: регистрация внизу | haai-register | `humanizer-footer` |
+| `igaming-ai-humanizer/README.md`: сайт внизу | igamingtextlab.com | `humanizer-site` |
 | `igtl-geo-germany/README.md`: подзаголовок | igamingtextlab.com | `geo-germany-header` |
 | `igtl-geo-germany/README.md`: блок $40 вверху | haai-register | `geo-germany-cta` |
 | `igtl-geo-germany/README.md`: регистрация внизу | haai-register | `geo-germany-footer` |

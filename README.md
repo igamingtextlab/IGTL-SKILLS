@@ -99,6 +99,8 @@ instead? Open `igaming-ai-humanizer/references/master-prompt.md` — it's a
 self-contained block you can paste into any Claude conversation or your own
 content generator.
 
+**[Full description, example prompts and rules →](igaming-ai-humanizer/)**
+
 ### `igtl-geo-germany/`
 
 Writes, edits and checks **German-language** iGaming copy for the **German
