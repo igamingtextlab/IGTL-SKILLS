@@ -32,9 +32,13 @@ IGTL-SKILLS/
 │   ├── SKILL.md
 │   ├── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
 │   └── references/*.md
-└── igtl-geo-germany/             # скилл 2 (исходники)
+├── igtl-geo-germany/             # скилл 2 (исходники)
+│   ├── SKILL.md
+│   └── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
+└── igtl-geo-uk/                  # скилл 3 (исходники)
     ├── SKILL.md
-    └── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
+    ├── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
+    └── references/*.md
 ```
 
 - **Исходники скилла** — папка в корне репозитория с `SKILL.md` внутри. Она
@@ -48,6 +52,7 @@ IGTL-SKILLS/
 |---|---|---|
 | `igaming-ai-humanizer` | `iGamingTextLab-ai-humanizer.skill` | v1.3 |
 | `igtl-geo-germany` | `iGamingTextLab-geo-germany.skill` | v1.4 |
+| `igtl-geo-uk` | `iGamingTextLab-geo-uk.skill` | v1.5 |
 
 Этот реестр продублирован в словаре `SKILLS` в `scripts/build_skills.py`.
 Меняешь одно — меняй и другое. Скрипт сам падает, если папка скилла есть,
@@ -156,6 +161,7 @@ python scripts/build_skills.py           # проверка + сборка в di
 **Skills in this release:**
 - `iGamingTextLab-ai-humanizer.skill` — rewrites or generates iGaming copy without AI-text patterns (EN/RU).
 - `iGamingTextLab-geo-germany.skill` — writes and checks German iGaming copy for the DE market.
+- `iGamingTextLab-geo-uk.skill` — writes, checks and localises British English iGaming copy for the UK (GB) market.
 
 **Changes:** <что изменилось в каждом скилле, или "unchanged">
 
@@ -220,6 +226,10 @@ utm_content=<место>      # уникально для каждой ссыл�
 | `igaming-ai-humanizer/README.md`: блок $40 вверху | haai-register | `humanizer-cta` |
 | `igaming-ai-humanizer/README.md`: регистрация внизу | haai-register | `humanizer-footer` |
 | `igaming-ai-humanizer/README.md`: сайт внизу | igamingtextlab.com | `humanizer-site` |
+| `igtl-geo-uk/README.md`: подзаголовок | igamingtextlab.com | `geo-uk-header` |
+| `igtl-geo-uk/README.md`: блок $40 вверху | haai-register | `geo-uk-cta` |
+| `igtl-geo-uk/README.md`: регистрация внизу | haai-register | `geo-uk-footer` |
+| `igtl-geo-uk/README.md`: сайт внизу | igamingtextlab.com | `geo-uk-site` |
 | `igtl-geo-germany/README.md`: подзаголовок | igamingtextlab.com | `geo-germany-header` |
 | `igtl-geo-germany/README.md`: блок $40 вверху | haai-register | `geo-germany-cta` |
 | `igtl-geo-germany/README.md`: регистрация внизу | haai-register | `geo-germany-footer` |
@@ -238,7 +248,7 @@ LinkedIn, Instagram, `mailto:`, адрес картинки логотипа.
 
 ```bash
 # 1. Каждая ссылка скачивания отдаёт файл (ожидается 200 после редиректа)
-for f in iGamingTextLab-ai-humanizer.skill iGamingTextLab-geo-germany.skill; do
+for f in iGamingTextLab-ai-humanizer.skill iGamingTextLab-geo-germany.skill iGamingTextLab-geo-uk.skill; do
   curl -sSL -o /dev/null -w "%{http_code}  $f\n" \
     "https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/$f"
 done

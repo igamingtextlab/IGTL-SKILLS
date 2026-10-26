@@ -23,6 +23,7 @@ from pathlib import Path
 SKILLS = {
     "igaming-ai-humanizer": "iGamingTextLab-ai-humanizer.skill",
     "igtl-geo-germany": "iGamingTextLab-geo-germany.skill",
+    "igtl-geo-uk": "iGamingTextLab-geo-uk.skill",
 }
 
 ROOT = Path(__file__).resolve().parent.parent

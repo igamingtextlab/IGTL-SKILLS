@@ -15,6 +15,9 @@
   <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-germany.skill">
     <img src="https://img.shields.io/badge/%E2%AC%87%20GEO%20Germany-iGamingTextLab--geo--germany.skill-black?style=for-the-badge" alt="Download iGamingTextLab-geo-germany.skill" />
   </a>
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-uk.skill">
+    <img src="https://img.shields.io/badge/%E2%AC%87%20GEO%20UK-iGamingTextLab--geo--uk.skill-black?style=for-the-badge" alt="Download iGamingTextLab-geo-uk.skill" />
+  </a>
 </p>
 
 <p align="center">
@@ -133,6 +136,45 @@ igtl-geo-germany/
    skill: "Use the igtl-geo-germany skill…".
 
 **[Full description, example prompts and rules →](igtl-geo-germany/)**
+
+### `igtl-geo-uk/`
+
+Writes, edits, audits and localises iGaming copy in **British English** for
+the **UK market (Great Britain)**: operator, slot and sportsbook reviews,
+bonus pages, landing pages, comparisons, FAQs and meta tags.
+
+Checks operator licences against the Gambling Commission register, applies
+GB product rules (slot stake limits, bonus wagering cap, mixed-product ban),
+player protection and GAMSTOP, CAP Code advertising rules, and British
+formats. Returns a Content Draft plus a Research & QA Report. Great Britain
+only — not Northern Ireland or the Crown Dependencies. Not legal advice.
+
+```
+igtl-geo-uk/
+├── SKILL.md                         # modes, source hierarchy, critical facts, final check
+├── README.md                        # full description (not included in the .skill file)
+└── references/
+    ├── licensing.md                 # register, white label, GB vs Northern Ireland
+    ├── products.md                  # slots, casino, poker, betting, bingo, bonuses
+    ├── player-protection.md         # checks, limits, self-exclusion, GAMSTOP, payments
+    ├── style-and-advertising.md     # British English, formats, advertising, footer
+    └── sources.md                   # rules register, verification statuses, change log
+```
+
+<p>
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-uk.skill">
+    <img src="https://img.shields.io/badge/Download-iGamingTextLab--geo--uk.skill-black?style=for-the-badge" alt="Download .skill" />
+  </a>
+</p>
+
+**Install:**
+1. Download `iGamingTextLab-geo-uk.skill` from
+   [**Releases**](https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest).
+2. Open the file in Claude (desktop or web) and click **Save skill**.
+3. Done — ask Claude to write or check a UK iGaming text, or name the
+   skill: "Use the igtl-geo-uk skill…".
+
+**[Full description, modes, example requests and rules →](igtl-geo-uk/)**
 
 More skills land here over time — watch the repo to get notified.
 
