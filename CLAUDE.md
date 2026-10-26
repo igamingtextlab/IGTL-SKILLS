@@ -27,7 +27,7 @@ IGTL-SKILLS/
 ├── LICENSE                       # CC BY 4.0
 ├── .gitignore                    # исключает dist/
 ├── docs/                         # GitHub Pages: посадочные страницы скиллов с картинкой для соцсетей
-│   └── geo-uk/                   # index.html, og.png (1200×630), logo-white.svg
+│   └── geo-uk/                   # index.html, og-gb.jpg (1200×630), logo-white.svg
 ├── scripts/
 │   └── build_skills.py           # валидация и сборка .skill-файлов в dist/
 ├── igaming-ai-humanizer/         # скилл 1 (исходники)
