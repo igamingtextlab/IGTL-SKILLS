@@ -26,6 +26,8 @@ IGTL-SKILLS/
 ├── README.md                     # публичная страница (маркетинг + скачивание)
 ├── LICENSE                       # CC BY 4.0
 ├── .gitignore                    # исключает dist/
+├── docs/                         # GitHub Pages: посадочные страницы скиллов с картинкой для соцсетей
+│   └── geo-uk/                   # index.html, og.png (1200×630), logo-white.svg
 ├── scripts/
 │   └── build_skills.py           # валидация и сборка .skill-файлов в dist/
 ├── igaming-ai-humanizer/         # скилл 1 (исходники)
@@ -226,6 +228,9 @@ utm_content=<место>      # уникально для каждой ссыл�
 | `igaming-ai-humanizer/README.md`: блок $40 вверху | haai-register | `humanizer-cta` |
 | `igaming-ai-humanizer/README.md`: регистрация внизу | haai-register | `humanizer-footer` |
 | `igaming-ai-humanizer/README.md`: сайт внизу | igamingtextlab.com | `humanizer-site` |
+| `docs/geo-uk/index.html` (GitHub Pages, `utm_medium=landing`): шапка | igamingtextlab.com | `geo-uk-landing-header` |
+| `docs/geo-uk/index.html` (`utm_medium=landing`): блок $40 | haai-register | `geo-uk-landing-cta` |
+| `docs/geo-uk/index.html` (`utm_medium=landing`): подвал | igamingtextlab.com | `geo-uk-landing-footer` |
 | `igtl-geo-uk/README.md`: подзаголовок | igamingtextlab.com | `geo-uk-header` |
 | `igtl-geo-uk/README.md`: блок $40 вверху | haai-register | `geo-uk-cta` |
 | `igtl-geo-uk/README.md`: регистрация внизу | haai-register | `geo-uk-footer` |
