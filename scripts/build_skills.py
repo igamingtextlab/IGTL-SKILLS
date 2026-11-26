@@ -24,6 +24,7 @@ SKILLS = {
     "igaming-ai-humanizer": "iGamingTextLab-ai-humanizer.skill",
     "igtl-geo-germany": "iGamingTextLab-geo-germany.skill",
     "igtl-geo-uk": "iGamingTextLab-geo-uk.skill",
+    "igtl-geo-au": "iGamingTextLab-geo-au.skill",
 }
 
 ROOT = Path(__file__).resolve().parent.parent

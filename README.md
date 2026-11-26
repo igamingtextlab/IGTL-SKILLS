@@ -18,6 +18,9 @@
   <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-uk.skill">
     <img src="https://img.shields.io/badge/%E2%AC%87%20GEO%20UK-iGamingTextLab--geo--uk.skill-black?style=for-the-badge" alt="Download iGamingTextLab-geo-uk.skill" />
   </a>
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-au.skill">
+    <img src="https://img.shields.io/badge/%E2%AC%87%20GEO%20Australia-iGamingTextLab--geo--au.skill-black?style=for-the-badge" alt="Download iGamingTextLab-geo-au.skill" />
+  </a>
 </p>
 
 <p align="center">
@@ -175,6 +178,45 @@ igtl-geo-uk/
    skill: "Use the igtl-geo-uk skill…".
 
 **[Full description, modes, example requests and rules →](igtl-geo-uk/)**
+
+### `igtl-geo-au/`
+
+Checks, writes, edits and localises iGaming copy in **Australian English
+(en-AU)** — main use: auditing a finished text before publishing. Bookmaker
+reviews (sport and racing), bonus pages, landing pages, comparisons, FAQs
+and meta tags.
+
+Checks licence claims against the ACMA and state registers, products under
+the Interactive Gambling Act, inducements, payments, BetStop and player
+protection, mandatory advertising taglines, and Australian localisation
+(no "acca", "free bet", £ or GAMSTOP). Australia only. Not legal advice.
+
+```
+igtl-geo-au/
+├── SKILL.md                         # modes, rule types, summary format, final check
+├── README.md                        # full description (not included in the .skill file)
+└── references/
+    ├── licensing.md                 # ACMA and state registers, licence and domain links
+    ├── products.md                  # IGA: what is allowed and prohibited, betting, racing
+    ├── player-protection.md         # BetStop, deposit limits, identity verification
+    ├── style-and-advertising.md     # Australian English, formats, advertising rules
+    └── sources.md                   # rules register, sources and check dates, change log
+```
+
+<p>
+  <a href="https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/iGamingTextLab-geo-au.skill">
+    <img src="https://img.shields.io/badge/Download-iGamingTextLab--geo--au.skill-black?style=for-the-badge" alt="Download .skill" />
+  </a>
+</p>
+
+**Install:**
+1. Download `iGamingTextLab-geo-au.skill` from
+   [**Releases**](https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest).
+2. Open the file in Claude (desktop or web) and click **Save skill**.
+3. Done — paste a text and ask Claude to check it for Australia, or name the
+   skill: "Use the igtl-geo-au skill…".
+
+**[Full description, example requests and limits →](igtl-geo-au/)**
 
 More skills land here over time — watch the repo to get notified.
 

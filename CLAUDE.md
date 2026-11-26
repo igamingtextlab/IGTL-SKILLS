@@ -27,7 +27,8 @@ IGTL-SKILLS/
 ├── LICENSE                       # CC BY 4.0
 ├── .gitignore                    # исключает dist/
 ├── docs/                         # GitHub Pages: посадочные страницы скиллов с картинкой для соцсетей
-│   └── geo-uk/                   # index.html, og-gb.jpg (1200×630), logo-white.svg
+│   ├── geo-uk/                   # index.html, og-gb.jpg (1200×630), logo-white.svg
+│   └── geo-au/                   # index.html, og-au.jpg (1200×630), logo-white.svg
 ├── scripts/
 │   └── build_skills.py           # валидация и сборка .skill-файлов в dist/
 ├── igaming-ai-humanizer/         # скилл 1 (исходники)
@@ -37,7 +38,11 @@ IGTL-SKILLS/
 ├── igtl-geo-germany/             # скилл 2 (исходники)
 │   ├── SKILL.md
 │   └── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
-└── igtl-geo-uk/                  # скилл 3 (исходники)
+├── igtl-geo-uk/                  # скилл 3 (исходники)
+│   ├── SKILL.md
+│   ├── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
+│   └── references/*.md
+└── igtl-geo-au/                  # скилл 4 (исходники)
     ├── SKILL.md
     ├── README.md                 # посадочная страница скилла на GitHub (в .skill не входит)
     └── references/*.md
@@ -55,6 +60,7 @@ IGTL-SKILLS/
 | `igaming-ai-humanizer` | `iGamingTextLab-ai-humanizer.skill` | v1.3 |
 | `igtl-geo-germany` | `iGamingTextLab-geo-germany.skill` | v1.4 |
 | `igtl-geo-uk` | `iGamingTextLab-geo-uk.skill` | v1.5 |
+| `igtl-geo-au` | `iGamingTextLab-geo-au.skill` | v1.6 |
 
 Этот реестр продублирован в словаре `SKILLS` в `scripts/build_skills.py`.
 Меняешь одно — меняй и другое. Скрипт сам падает, если папка скилла есть,
@@ -164,6 +170,7 @@ python scripts/build_skills.py           # проверка + сборка в di
 - `iGamingTextLab-ai-humanizer.skill` — rewrites or generates iGaming copy without AI-text patterns (EN/RU).
 - `iGamingTextLab-geo-germany.skill` — writes and checks German iGaming copy for the DE market.
 - `iGamingTextLab-geo-uk.skill` — writes, checks and localises British English iGaming copy for the UK (GB) market.
+- `iGamingTextLab-geo-au.skill` — checks, writes and localises Australian English iGaming copy for the AU market.
 
 **Changes:** <что изменилось в каждом скилле, или "unchanged">
 
@@ -228,6 +235,13 @@ utm_content=<место>      # уникально для каждой ссыл�
 | `igaming-ai-humanizer/README.md`: блок $40 вверху | haai-register | `humanizer-cta` |
 | `igaming-ai-humanizer/README.md`: регистрация внизу | haai-register | `humanizer-footer` |
 | `igaming-ai-humanizer/README.md`: сайт внизу | igamingtextlab.com | `humanizer-site` |
+| `igtl-geo-au/README.md`: подзаголовок | igamingtextlab.com | `geo-au-header` |
+| `igtl-geo-au/README.md`: блок $40 вверху | haai-register | `geo-au-cta` |
+| `igtl-geo-au/README.md`: регистрация внизу | haai-register | `geo-au-footer` |
+| `igtl-geo-au/README.md`: сайт внизу | igamingtextlab.com | `geo-au-site` |
+| `docs/geo-au/index.html` (`utm_medium=landing`): шапка | igamingtextlab.com | `geo-au-landing-header` |
+| `docs/geo-au/index.html` (`utm_medium=landing`): блок $40 | haai-register | `geo-au-landing-cta` |
+| `docs/geo-au/index.html` (`utm_medium=landing`): подвал | igamingtextlab.com | `geo-au-landing-footer` |
 | `docs/geo-uk/index.html` (GitHub Pages, `utm_medium=landing`): шапка | igamingtextlab.com | `geo-uk-landing-header` |
 | `docs/geo-uk/index.html` (`utm_medium=landing`): блок $40 | haai-register | `geo-uk-landing-cta` |
 | `docs/geo-uk/index.html` (`utm_medium=landing`): подвал | igamingtextlab.com | `geo-uk-landing-footer` |
@@ -253,7 +267,7 @@ LinkedIn, Instagram, `mailto:`, адрес картинки логотипа.
 
 ```bash
 # 1. Каждая ссылка скачивания отдаёт файл (ожидается 200 после редиректа)
-for f in iGamingTextLab-ai-humanizer.skill iGamingTextLab-geo-germany.skill iGamingTextLab-geo-uk.skill; do
+for f in iGamingTextLab-ai-humanizer.skill iGamingTextLab-geo-germany.skill iGamingTextLab-geo-uk.skill iGamingTextLab-geo-au.skill; do
   curl -sSL -o /dev/null -w "%{http_code}  $f\n" \
     "https://github.com/igamingtextlab/IGTL-SKILLS/releases/latest/download/$f"
 done
