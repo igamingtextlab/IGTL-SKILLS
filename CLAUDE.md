@@ -28,7 +28,7 @@ IGTL-SKILLS/
 ├── .gitignore                    # исключает dist/
 ├── docs/                         # GitHub Pages: посадочные страницы скиллов с картинкой для соцсетей
 │   ├── geo-uk/                   # index.html, og-gb.jpg (1200×630), logo-white.svg
-│   └── geo-au/                   # index.html, og-au.jpg (1200×630), logo-white.svg
+│   └── geo-au/                   # index.html, og-au-v2.jpg (1200×630), logo-white.svg
 ├── scripts/
 │   └── build_skills.py           # валидация и сборка .skill-файлов в dist/
 ├── igaming-ai-humanizer/         # скилл 1 (исходники)
